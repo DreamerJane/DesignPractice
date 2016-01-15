@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="home"
+            android:icon="@drawable/ic_action_call" />
+        <item android:title="pics"
+            android:icon="@drawable/ic_action_call"/>
+        <item android:title="message"
+            android:icon="@drawable/ic_action_call"/>
+        <item android:title="friend"
+            android:icon="@drawable/ic_action_call"/>
+    </group>
+    <item android:title="Sub items">
+        <menu>
+            <item android:title="Sub item1"
+                android:icon="@drawable/ic_action_call"></item>
+            <item android:title="Sub item2"
+                android:icon="@drawable/ic_action_call"></item>
+        </menu>
+    </item>
+</menu>

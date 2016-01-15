@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="com.dycloud.designpractice.SnackBarActivity">
+
+    <Button
+        android:id="@+id/btn_show_snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show SnackBar"/>
+
+    <FrameLayout
+        android:id="@+id/m_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+
+</RelativeLayout>
